@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 0;
+}
+.vertical-align{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+.background{
+	background: #000;
+}
+.widletitle{
+	font-family: 'Source Sans Pro', sans-serif;
+	background: black;
+	color:lightgrey;
+	padding: 0px;
+	border-radius: 5px;
+	text-align: center	;
+	text-transform: uppercase;
+	margin: 0px;
+
+}
+.boxtext{
+	margin: 0px;	
+	background: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: black;
+}
+.top-column{
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+.navbarpersonal{
+	background: black;
+	color:white;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+
+}
+.button{
+	background: black;
+	color: white;
+}
